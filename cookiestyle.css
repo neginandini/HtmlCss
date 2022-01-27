@@ -1,0 +1,217 @@
+ul {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:white;
+    color: black;
+  }
+  
+  .centered{
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: xx-large;
+    color: aliceblue;
+  
+  }
+  .poster{
+      
+    background-image: url("cookie.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(2px);
+   
+    width: 100%;
+  
+    height: 500px;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text{
+      
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .button{
+      background-color: burlywood;
+      border-radius: 10%;
+      width: 3cm;
+      padding: 10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+  }
+  div.gallery {
+      margin-top: 50px;
+    margin-left: 65px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.desc {
+    padding: 8px;
+    text-align: center;
+    margin-right: 25px;
+    
+  }
+  
+         
+   #sect{
+     height: 300px;
+     width: auto;
+     margin-top: 32%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+     .sec{
+              width: 32%;
+              height: 200px;
+              display: inline-block;
+              margin-left: 12px;
+          }
+          .imgs{
+              width: 40%;
+              height: 120px;
+              display: inline-block;
+          }
+          .imgss{
+              width: 100%;
+              height: 200px;
+              border-radius: 100%;
+          }
+          .txt{
+              height: 200px;
+              width: 58%;
+              display: inline-block;
+              vertical-align:top;
+          }
+          .txt p{
+              padding: 50px 10px 50px 10px;
+          }
+  hr{
+    width: 95%;
+  }
+
+  #brands{
+      width: 100%;
+      height: 150px;
+  }
+#brands img{
+    width: 90%;
+    margin-left: 72px;
+    height: 85%;
+}
+.footer{
+    background-color: black;
+  
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.foot{
+    margin-top: 5px;
+    padding: 0%;
+    width: 33%;
+    height: 300px;
+    color: white;
+    display: inline-block;
+
+}
+.foot p{
+    font-family: cursive;
+    font-size: 0.45cm;
+    vertical-align: top;
+    
+}
+
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color:burlywood;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 0.5cm;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
